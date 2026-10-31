@@ -1,0 +1,31 @@
+name: zeeshan_daily_life_style
+description: Personal daily life tracker (health, mind, ideas, work, money, social, habits, activities).
+publish_to: 'none'
+version: 2.0.0+2
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.3
+  path_provider: ^2.1.4
+  path: ^1.9.0
+  share_plus: ^10.0.0
+  file_picker: ^8.0.0
+  crypto: ^3.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+# App icon: put a square PNG (1024x1024 recommended) at assets/icon.png in the repo.
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon.png"
